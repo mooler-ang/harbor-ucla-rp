@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Harbor-UCLA Medical Center replacement program." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- External link popup script -->
+    <script language="JavaScript" src="//pw.lacounty.gov/library/JS/RedirExternal.js" type="text/javascript"></script>
+
+    <!-- Stylesheets
+	============================================= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!--<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />-->
+    <link rel="stylesheet" href="https://pw.lacounty.gov/site/assets/css/dpw.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+
+    <!-- load modal on page load -->
+    <!-- <script>
+		$(document).ready(function(){
+			$("#update-info-Modal").modal('show');
+		});
+	</script> -->
+
+    <!-- Document Title
+	============================================= -->
+    <title>Harbor-UCLA Medical Center Replacement Program</title>
+  </head>
+
+  <body class="stretched">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+      <!-- Header
+		============================================= -->
+      <!--#include virtual="/harbor-ucla-rp/site-header.html" -->
+
+      <!-- Header end -->
+
+      <!-- Page Sub Menu
+		============================================= -->
+
+      <!-- nav original location -->
+
+      <!-- #page-menu end -->
+
+      <section id="slider" class="slider-element swiper_wrapper full-screen clearfix">
+        <div class="slider-parallax-inner">
+          <div class="swiper-container swiper-parent">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide dark" style="background-image: url('images/carson-front-1920-752px.jpg')">
+                <div class="container clearfix">
+                  <div class="slider-caption slider-caption-center">
+                    <div data-caption-animate="fadeInUp">
+                      <h2>Harbor-UCLA Medical Center<br>Replacement Program</h2>
+
+                      <div class="timed-container d-none mt-3">
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#update-info-Modal">View Update</button>
+                      </div>
+
+                      <!--<a data-caption-animate="fadeInUp" href="#" data-scrollto="#project-desc" class="button button-border button-light button-rounded button-reveal tright button-large topmargin d-none d-md-inline-block"><i class="icon-angle-right"></i><span>Learn More</span></a>
+                      <a href="about.shtml" class="button button-border button-light button-rounded button-reveal tright button-large topmargin d-none d-md-inline-block"><i class="icon-angle-right"></i><span>Learn More</span></a>-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- message for more -->
+        <a href="#" data-scrollto="#project-desc" data-offset="100" class="dark one-page-arrow"
+          ><div style="font-size: 16px; width: 200px; margin-left: -84px; margin-bottom: 10px">scroll down for contact info</div>
+          <i class="icon-angle-down fadeInDown" style="font-size: 2em; transform: translateY(-50px)"></i
+        ></a>
+
+        <!-- animated down arrow -->
+        <!--<a href="#" data-scrollto="#project-desc" data-offset="100" class="dark one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown" style="font-size: 2em; transform: translateY(-20px);"></i></a>-->
+      </section>
+
+      <!-- Update Modal information here - MODAL EXPIRATION DATE CHANGE UNDER INDEX.JS
+		============================================= -->
+
+      <div class="modal fade" id="update-info-Modal" tabindex="-100" role="dialog" aria-labelledby="update-info-ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="update-info-ModalLabel">Update: 3/24/22</h3>
+
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body"></div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="padding: 3rem 3rem 1rem 3rem">
+      <p style="font-size: x-large">
+        On February 8, 2022, the Los Angeles County Board of Supervisors approved the Harbor-UCLA Replacement Program. Led by Los Angeles County
+        Public Works, this $1.7 Billion project will replace the existing 1960s hospital and consolidate the outpatient services in new, industry-leading, facilities on the 72- acre medical campus by 2027.
+      </p>
+      <p style="font-size: x-large">
+        The new facilities will offer healthcare providers with the means to continue delivering outstanding medical care to Los Angeles County.
+      </p>
+    </div>
+
+    <!-- Content
+		============================================= -->
+
+    <!-- #content end -->
+
+    <!-- #include virtual="/harbor-ucla-rp/site-subfooter.html" -->
+
+    <footer id="includeFooter">
+      <div id="includedFooter"></div>
+    </footer>
+
+    <!-- Footer
+		============================================= -->
+    <!-- #footer end -->
+    <!-- #wrapper end -->
+
+    <!-- Go To Top
+	============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- External JavaScripts
+	============================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!-- Footer Scripts
+	============================================= -->
+    <script src="js/functions.js"></script>
+
+    <script>
+      $(function () {
+        $("#includedFooter").load("/site/html-parts/includes/footer.html");
+      });
+    </script>
+
+    <!--<script src="js/index.js"></script>-->
+
+    <!-- google analytics code 8/14/08 account holder: DPWwebmaster@gmail.com  -->
+    <script src="//dpw.lacounty.gov/lib/ga/gatag.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var gaJsHost = "https:" == document.location.protocol ? "https://ssl." : "http://www.";
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-5298395-2");
+        pageTracker._setDomainName("none");
+        pageTracker._setAllowLinker(true);
+        pageTracker._setAllowHash(false);
+        pageTracker._trackPageview();
+      } catch (err) {}
+    </script>
+  </body>
+</html>

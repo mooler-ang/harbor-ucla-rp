@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Contact Us - Devil's Gate Reservoir Restoration Project" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
+	
+	<link rel="stylesheet" href="/site/assets/css/dpw.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	
+	<link rel="stylesheet" href="css/custom.css" type="text/css">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />	
+	
+
+	<!-- Document Title
+	============================================= -->
+	<title>Contact Us - Devil's Gate Reservoir Restoration Project</title>
+
+	
+</head>
+
+<body class="stretched">
+	
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+	<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header full-header static-sticky bg-dark">
+
+			<div id="header-wrap">
+				<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+				<nav class="navbar navbar-expand-lg bg-dark">
+					<div class="container-fluid d-flex justify-content-center justify-content-md-center justify-content-lg-between justify-content-xl-between mr-md-5">
+					   
+						<div class="d-md-block">
+										
+							<a class="navbar-brand d-flex mr-0 align-items-center pt-3 p-lg-2" role="heading" aria-level="1" href="/">
+								<img src="/lib/hf/img/dpw-script-white.svg" class="d-inline-block img-fluid mb-1" alt="Public Works Logo">
+							</a>
+						
+						</div> 				
+							
+					</div>
+					<!-- ./container -->
+				</nav>
+				<!--#include virtual="/swe/devilsgate/site-menu.html" --><!-- Moved here to keep the nav top sticky -->
+			</div>
+
+		</header><!-- #header end -->
+		
+		<!-- Page Sub Menu
+		============================================= -->
+		
+		<!-- nav original location -->
+		
+		<!-- #page-menu end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content" class="container">
+			
+			<div class="row">
+
+				<div class="col-lg-12  col-padding " style="background-image: url(images/contact-form-img-1280x720.jpg); background-repeat: no-repeat;">
+
+					<h3 style="font-family: Lato; font-weight: 300; font-style: normal; font-size: 42px; color: #fff;">Let's Talk!</h3>
+					<div style="line-height: 1.8; color: #fff; font-size: 22px;">We value your feedback and concerns about the reservoir.</div>
+					<br>
+					<div class="showMsg" style="line-height: 1.8; color: #fff; font-size: 22px;">
+					  <p>Thank you for submitting your feedback. </p>
+					</div>
+					<div class="card divcenter  noborder" style=" background-color: rgba(35,50,66,0.80);" id="contactForm">
+						<div class="card-body" style="padding: 40px;">
+							<form id="lets-talk" name="lets-talk-form" class="nobottommargin dark" action="sendEmail.cfm" accept-charset="UTF-8" method="post" target="_blank">
+
+								<div class="col_full">
+									<input class="form-control" id="customerName" name="customerName" type="text" onfocus="if(this.value == 'Name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Name'; }" value="Name" autocomplete="on">					
+								</div>
+								<div class="col_full">
+									<input class="form-control " id="customerEmail" name="customerEmail" type="email" onfocus="if(this.value == 'Email Address') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Email Address'; }" value="Email Address" autocomplete="on">										
+								</div>
+								<div class="col_full">
+									<input class="form-control " id="customerComments" name="customerComments" type="text" onfocus="if(this.value == 'Comments') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Comments'; }" value="Comments" autocomplete="on" required>										
+								</div>
+								<div class="col_full">
+									<button class="button button-3d nomargin" id="login-form-submit" name="login-form-submit" value="Submit">Submit</button>
+								</div>
+
+							</form>
+
+						</div>
+					</div>
+				</div>					
+
+			</div>
+			
+
+		</section><!-- #content end -->
+		
+		<!--#include virtual="/swe/devilsgate/site-subfooter.html" -->
+
+		<footer id="includeFooter">
+			<div id="includedFooter"></div>
+		</footer>
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up" style=""></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+	
+	<script> 
+    $(function(){
+      $("#includedFooter").load("../../site/html-parts/includes/footer.html"); 
+		
+    });
+    </script>
+		
+	<script>
+		
+	$(document).ready(function() {
+
+	  var url = location.href;
+
+	  if (url.search('fs') >= 1) {
+		  $('.showMsg').show();
+		  $('#contactForm').hide();
+		  
+	  }
+	});	
+	</script>
+		
+	
+	<!-- google analytics code 8/14/08 account holder: DPWwebmaster@gmail.com  --> 
+	<script src="//dpw.lacounty.gov/lib/ga/gatag.js" type="text/javascript"></script> 
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script> 
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-5298395-2");
+	pageTracker._setDomainName("none");
+	pageTracker._setAllowLinker(true);
+	pageTracker._setAllowHash(false);
+	pageTracker._trackPageview();
+	} catch(err) {}
+	</script>
+
+</body>
+</html>
